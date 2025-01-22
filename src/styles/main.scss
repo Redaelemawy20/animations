@@ -1,1 +1,9 @@
-@use './animations/test';
+@use './animations/fade-in';
+
+.btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
