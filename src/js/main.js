@@ -1,5 +1,6 @@
-document
-  .getElementById('animated-element')
-  .addEventListener('mouseover', () => {
-    console.log('Element is being animated!');
-  });
+function animateElement(animationName) {
+  const animatedElm = document.getElementById('animated-element');
+  animatedElm.classList.remove(animationName);
+  void animatedElm.offsetWidth;
+  animatedElm.classList.add(animationName);
+}
