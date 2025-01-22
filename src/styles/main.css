@@ -10,6 +10,20 @@
     opacity: 0;
   }
 }
+.slide-in {
+  animation: slide-in 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+@keyframes slide-in {}
+.relative {
+  position: relative;
+}
+
+.absloute {
+  position: absolute;
+}
+
 .container {
   display: flex;
   flex-direction: row;
