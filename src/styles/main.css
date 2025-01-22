@@ -2,9 +2,10 @@
   width: 100px;
   height: 100px;
   background-color: #3498db;
-  transition: transform 0.5s ease-in-out; }
-  #animated-element:hover {
-    transform: rotate(45deg); }
+  transition: transform 0.5s ease-in-out;
+}
+#animated-element:hover {
+  transform: rotate(45deg);
+}
 
-body {
-  color: #3498db; }
+/*# sourceMappingURL=main.css.map */

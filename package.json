@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass ./src/styles/main.scss ./src/styles/main.css"
+    "build-css": "sass ./src/styles/main.scss ./src/styles/main.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "node-sass": "^9.0.0"
+    "sass": "^1.83.4"
   }
 }
